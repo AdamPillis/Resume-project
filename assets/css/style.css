@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+a:hover {
+    text-decoration: none;
+}
 /* ----------------------------------Colours */
 .bg-color-name-title {
     background-color: #676767;
@@ -58,7 +65,21 @@
     background-color: #e74c3c;
 }
 
+.html-color {
+    color: #d9a81d;
+}
 
+.css-color {
+    color: #3498db;
+}
+
+.js-color {
+    color: #e74c3c;
+}
+
+.python-color {
+    color: #9b59b6;
+}
 
 
 body {

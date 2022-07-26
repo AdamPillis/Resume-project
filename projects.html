@@ -8,15 +8,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link rel="stylesheet" href="assets/css/style.css" type='text/css'>
-
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-        (function(){
-            emailjs.init("user_TF1wpuR3N3AfWprdyNgoZ");    
-    })();
-</script>
     <title>Adam</title>
 </head>
 <body>
@@ -42,7 +33,7 @@
                                 <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
                             </li>
                             <li class="col-xs-6 col-sm-2 ui-menu-color-contact menuitem">
-                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fas fa-comments" aria-hidden="true"></i><span>Deployed Projects</span></a>
+                                <a href="projects.html" class="hvr-sweep-to-bottom"><i class="fas fa-comments" aria-hidden="true"></i><span>Deployed Projects</span></a>
                             </li>
                             <li class="col-xs-6 col-sm-2 ui-menu-color-interests menuitem">
                                 <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fas fa-user" aria-hidden="true"></i><span>Interests</span></a>
@@ -60,23 +51,52 @@
             </div>
         </div>
     </header>
-    <section class='container-fluid'>
-        <div class="row bg-color-contact">
-            <div class="col">
-                <h3 class='contact-heading uppercase text-center'>Got a project in mind?</h3>
-                <h5 class='uppercase text-center'>Let's work together!</h5>
-
-                <div class="center-form">
-                    <form onsubmit="return sendMail(this);">
-                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                        <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
-                        <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
-                    </form>
+    <section class="container-fluid bg-white">
+        <div class="row">
+            <div class="col-12 my-4 text-center">
+                <h2 class="text-uppercase">Deployed Projects</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
+                <div class="col-12">
+                    <a href="https://adampillis.github.io/Wild-Atlantic-Golf-Guide/" target="_blank">
+                    <h3>The Wild Atlantic Way Golf Guide <i class="fab fa-html5 html-color"></i> <i class="fab fa-css3 css-color"></i></h3>
+                    <div><p>View Deployed Version</p></div>
+                    </a>
                 </div>
             </div>
         </div>
-
+        <div class="row">
+            <div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
+                <div class="col-12">
+                    <a href="https://adampillis.github.io/MasterMind-IQ-Challenge/" target="_blank">
+                    <h3>MasterMind IQ Challange <i class="fab fa-html5 html-color"></i> <i class="fab fa-css3 css-color"></i> <i class="fab fa-js js-color"></i></h3>
+                    <div><p>View Deployed Version</p></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
+                <div class="col-12">
+                    <a href="https://battleship-voyage.herokuapp.com/" target="_blank">
+                    <h3>Battleship Voyage <i class="fab fa-python python-color"></i></h3>
+                    <div><p>View Deployed Version</p></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
+                <div class="col-12">
+                    <a href="https://highdunes.herokuapp.com/" target="_blank">
+                    <h3>HighDunes <i class="fab fa-html5 html-color"></i> <i class="fab fa-css3 css-color"></i> <i class="fab fa-js js-color"></i> <i class="fab fa-python python-color"></i></h3>
+                    <div><p>View Deployed Version</p></div>
+                    </a>
+                </div>
+            </div>
+        </div>          
     </section>
     <footer class='container-fluid'>
         <div id='footer-details' class="row">
@@ -141,8 +161,6 @@
         </div>
 
     </footer>
-
-    <script src='assets/js/sendEmail.js'></script>
     
 </body>
 </html>
